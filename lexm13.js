@@ -34,4 +34,5 @@ function ReturnOddsArray1To255() {
   return result;
 }
 
-console.log(ReturnOddsArray1To255());
+var testArr = ReturnOddsArray1To255();
+console.log(testArr[testArr.length -1]);
