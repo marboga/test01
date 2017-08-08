@@ -35,7 +35,7 @@ function ReturnOddsArray1To255() {
   }
   return result;
 }
-// var testArr = ReturnOddsArray1To255();
+var testArr = ReturnOddsArray1To255();
 // console.log(testArr[testArr.length -1]);
 
 function ReturnArrayCountGreaterThanY(arr, y) {
@@ -47,5 +47,21 @@ function ReturnArrayCountGreaterThanY(arr, y) {
   }
   console.log(count);
 }
-
 // ReturnArrayCountGreaterThanY(testArr, 7);
+
+PrintMaxMinAverageArrayVals(arr) {
+  var max = min = arr[0];
+  var sum = 0;
+  for(var i = 0; i < arr.length; i++) {
+    sum += arr[i];
+    if(arr[i] > max) {
+      max = arr[i];
+    } else if(arr[i] < min) {
+      min = arr[i];
+    }
+  }
+  console.log('max is ' + max);
+  console.log('min is ' + min);
+  console.log('mean is ' + (sum / arr.length));
+}
+PrintMaxMinAverageArrayVals(testArr);
