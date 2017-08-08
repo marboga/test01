@@ -78,31 +78,31 @@ function PrintArrayVals(arr) {
 function PrintAverageOfArray(arr) {
     total = 0
     for (var i = 0; i < arr.length; i++) {
-        total += arr[i]
+        total += arr[i];
         }
     }
-    console.log(total/arr.length)
+    console.log(total/arr.length);
 };
 
 function SquareArrayVals(arr) {
     for (var i = 0; i < arr.length; i++) {
-        arr[i] = arr[i]**2
+        arr[i] = arr[i]**2;
     }
-    return arr
+    return arr;
 };
 
 function ZeroOutArrayNegativeValues(arr) {
     for (var i = 0; i < arr.length; i++) {
         if (arr[i] < 0) {
-            arr[i] = 0
+            arr[i] = 0;
         }
     }
-    return arr
+    return arr;
 };
 
 function ShiftArrayValsLeft(arr) {
     for (var i = 0; i < arr.length - 1; i++) {
-        arr[i] = arr[i+1]
+        arr[i] = arr[i+1];
     }
-    arr[arr.length - 1] = 0
+    arr[arr.length - 1] = 0;
 };
