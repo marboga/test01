@@ -1,3 +1,5 @@
+// Tests for each function commented out below 
+
 function Print1To255() {
   for(var i = 1; i < 256; i++) {
     console.log(i);
