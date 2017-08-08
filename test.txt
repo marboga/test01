@@ -8,4 +8,11 @@ function count() {
 
 count();
 
-//Print Ints and Sum 0-255
+//Print Odds 1-255
+function count() {
+    for(var i = 1; i <= 255; i = i + 2) {
+        console.log(i);
+    }
+}
+
+count();
