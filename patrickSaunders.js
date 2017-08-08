@@ -33,16 +33,25 @@ function ReturnArrayCountGreaterThanY(arr,y) {
             console.log(arr[i]);
         }
     }
-}
+};
 
 function PrintMaxMinAverageArrayVals(arr) {
-    var temp = arr.sort();
-    console.log(temp[temp.length - 1]);
-    console.log(temp[0]);
-    console.log((temp.reduce(function (a,b) {
-        return a+b;
-    })) / temp.length);
-}
+    maximum = -Infinity
+    minimum = Infinity
+    total = 0
+    for (var i = 0; i < arr.length; i++) {
+        if (arr[i] > maximum) {
+            maximum = arr[i]
+        }
+        else if (arr[i] < minimum) {
+            minimum = arr[i]
+        }
+        total += arr[i]
+    }
+    console.log(maximum);
+    console.log(minimum);
+    console.log(total / arr.length);
+};
 
 function SwapStringForArrayNegativeVals(arr) {
     for (var i = 0; i < arr.length; i++) {
@@ -50,7 +59,7 @@ function SwapStringForArrayNegativeVals(arr) {
             arr[i] = 'Dojo'
         }
     }
-}
+};
 
 function PrintOdds1To255() {
     for (var i = 1 - 1; i < 256; i++) {
@@ -58,39 +67,42 @@ function PrintOdds1To255() {
             console.log(i)
         }
     }
-}
+};
 
 function PrintArrayVals(arr) {
-    arr.map(function (a) {
-        console.log(a);
-        return a
-    })
-}
+    for (var i = 0; i < arr.length; i++) {
+        console.log(arr[i]);
+    }
+};
 
 function PrintAverageOfArray(arr) {
-    temp = arr.sort();
-    console.log((temp.reduce(function (a,b) {
-        return a+b;
-    })) / temp.length);
-}
+    total = 0
+    for (var i = 0; i < arr.length; i++) {
+        total += arr[i]
+        }
+    }
+    console.log(total/arr.length)
+};
 
 function SquareArrayVals(arr) {
-    return arr.map(function(a) {return a**2});
-}
+    for (var i = 0; i < arr.length; i++) {
+        arr[i] = arr[i]**2
+    }
+    return arr
+};
 
 function ZeroOutArrayNegativeValues(arr) {
-    return arr.map(function(a) {
-        if (a < 0) {
-            return 0
+    for (var i = 0; i < arr.length; i++) {
+        if (arr[i] < 0) {
+            arr[i] = 0
         }
-        else
-            return a
-    })
-}
+    }
+    return arr
+};
 
 function ShiftArrayValsLeft(arr) {
     for (var i = 0; i < arr.length - 1; i++) {
         arr[i] = arr[i+1]
     }
     arr[arr.length - 1] = 0
-}
+};
