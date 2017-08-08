@@ -33,6 +33,5 @@ function ReturnOddsArray1To255() {
   }
   return result;
 }
-
-var testArr = ReturnOddsArray1To255();
-console.log(testArr[testArr.length -1]);
+// var testArr = ReturnOddsArray1To255();
+// console.log(testArr[testArr.length -1]);
