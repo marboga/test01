@@ -1,0 +1,11 @@
+//Print all the integers from 1 to 255.
+
+function count() {
+    for(var i = 1; i <= 255; i++) {
+        console.log(i);
+    }
+}
+
+count();
+
+//Print Ints and Sum 0-255
