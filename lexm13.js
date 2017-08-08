@@ -25,7 +25,7 @@ function PrintMaxOfArray(arr) {
   }
   console.log(max);
 }
-var testArr = [7, 13 ,9 ,-3 , 4, 22, -30];
+// var testArr = [7, 13, 9, -3, 4, 22, -30];
 // PrintMaxOfArray(testArr);
 
 function ReturnOddsArray1To255() {
@@ -48,4 +48,4 @@ function ReturnArrayCountGreaterThanY(arr, y) {
   console.log(count);
 }
 
-ReturnArrayCountGreaterThanY(testArr, 7);
+// ReturnArrayCountGreaterThanY(testArr, 7);
