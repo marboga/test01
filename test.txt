@@ -35,3 +35,12 @@ for (var i = 0; i <= arr.length; i++) {
  }
 
  //Given an array, find and print its largest element.
+ var arr = [1, 2, 34, 63, -1];
+ var large = 0;
+ for (var i = 0; i <= large; i++) {
+      if (arr[i]>large) {
+      var large=arr[i];
+    }
+}
+
+console.log(large);
