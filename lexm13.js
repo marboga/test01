@@ -25,7 +25,7 @@ function PrintMaxOfArray(arr) {
   }
   console.log(max);
 }
-var testArr = [7, 13, 9, -3, 4, 22, -30];
+// var testArr = [7, 13, 9, -3, 4, 22, -30];
 // PrintMaxOfArray(testArr);
 
 function ReturnOddsArray1To255() {
@@ -64,4 +64,4 @@ function PrintMaxMinAverageArrayVals(arr) {
   console.log('min is ' + min);
   console.log('mean is ' + (sum / arr.length));
 }
-PrintMaxMinAverageArrayVals(testArr);
+// PrintMaxMinAverageArrayVals(testArr);
