@@ -1,4 +1,4 @@
-// Tests for each function commented out below 
+// Tests for each function commented out below
 
 function Print1To255() {
   for(var i = 1; i < 256; i++) {
@@ -25,7 +25,7 @@ function PrintMaxOfArray(arr) {
   }
   console.log(max);
 }
-// var testArr = [7, 13 ,9 ,-3 , 4, 22, -30];
+var testArr = [7, 13 ,9 ,-3 , 4, 22, -30];
 // PrintMaxOfArray(testArr);
 
 function ReturnOddsArray1To255() {
@@ -37,3 +37,15 @@ function ReturnOddsArray1To255() {
 }
 // var testArr = ReturnOddsArray1To255();
 // console.log(testArr[testArr.length -1]);
+
+function ReturnArrayCountGreaterThanY(arr, y) {
+  var count = 0;
+  for(i = 0; i < arr.length; i++) {
+    if(arr[i] > y) {
+      count++;
+    }
+  }
+  console.log(count);
+}
+
+ReturnArrayCountGreaterThanY(testArr, 7);
