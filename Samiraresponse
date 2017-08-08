@@ -48,3 +48,49 @@ function ReturnOddsArray1To255(arr){
 }
 ReturnOddsArray1To255();
 
+
+// greater than Y 
+function ReturnArrayCountGreaterThanY(arr, Y){
+  var count = 0;
+  for (var i =0; i< arr.length; i++){
+    if (arr[i]>Y){
+      count++ ;
+    }
+    
+  }
+  return count;
+}
+ReturnArrayCountGreaterThanY([2,3,4,8,23,12,45,67], 7);
+
+// max, min, avg 
+function PrintMaxMinAverageArrayVals(arr){
+  var maxVal=0;
+  var minVal =0;
+  var avgVal=0;
+  for (var i = 0; i<arr.length; i++){
+    if (arr[i] > maxVal){
+      maxVal = arr[i];
+      
+    }
+    if (arr[i] < minVal){
+      minVal = arr[i];
+    }
+  
+  }
+  console.log("the max value is "  +  maxVal);
+  console.log("the min value is " + minVal);
+  console.log("the average is " +  ((maxVal+minVal)/2));
+}
+ PrintMaxMinAverageArrayVals([0,3,2,5,12,34,56,67]); 
+  
+// swap 
+function SwapStringForArrayNegativeVals(arr){
+  for (var i =0; i< arr.length; i++){
+    if (arr[i] < 0 ){
+       arr[i] = "Dojo";
+    }
+  }
+  console.log(arr);
+}
+ SwapStringForArrayNegativeVals([3,4,5,-3,-5,-45,67,54,32]);
+
