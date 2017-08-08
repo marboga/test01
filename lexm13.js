@@ -49,7 +49,7 @@ function ReturnArrayCountGreaterThanY(arr, y) {
 }
 // ReturnArrayCountGreaterThanY(testArr, 7);
 
-PrintMaxMinAverageArrayVals(arr) {
+function PrintMaxMinAverageArrayVals(arr) {
   var max = min = arr[0];
   var sum = 0;
   for(var i = 0; i < arr.length; i++) {
