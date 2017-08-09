@@ -68,7 +68,7 @@ function PrintMaxMinAverageArrayVals(arr) {
 // PrintMaxMinAverageArrayVals(testArr);
 
 function SwapStringForArrayNegativeValues(arr) {
-  for(i = 0; i < arr.length; i++) {
+  for(var i = 0; i < arr.length; i++) {
     if(arr[i] < 0) {
       arr[i] = 'Dojo';
     }
@@ -78,14 +78,14 @@ function SwapStringForArrayNegativeValues(arr) {
 // console.log(testArr);
 
 function PrintOdds1To255() {
-  for(i = 1; i < 256; i += 2) {
+  for(var i = 1; i < 256; i += 2) {
     console.log(i);
   }
 }
 // PrintOdds1To255();
 
 function PrintArrayVals(arr) {
-  for(i = 0; i < arr.length; i++) {
+  for(var i = 0; i < arr.length; i++) {
     console.log(arr[i]);
   }
 }
@@ -93,7 +93,7 @@ function PrintArrayVals(arr) {
 
 function PrintAverageOfArray(arr) {
   sum = 0;
-  for(i = 0; i < arr.length; i++) {
+  for(var i = 0; i < arr.length; i++) {
     sum += arr[i];
   }
   console.log(sum / arr.length);
@@ -102,9 +102,20 @@ function PrintAverageOfArray(arr) {
 
 function SquareArrayVals(arr) {
   var newArr = [];
-  for(i = 0; i < arr.length; i++) {
+  for(var i = 0; i < arr.length; i++) {
     newArr[i] = Math.pow(arr[i], 2);
   }
   return newArr;
 }
 // console.log(SquareArrayVals(testArr));
+
+function ZeroOutNegativeNumbers(arr) {
+  var newArr = [];
+  for(var i = 0; i < arr.length; i++) {
+    if(arr[i] < 0) {
+      arr[i] = 0;
+    }
+  }
+  return newArr;
+}
+console.log(ZeroOutNegativeNumbers(testArr));
