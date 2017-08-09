@@ -89,4 +89,4 @@ function PrintArrayVals(arr) {
     console.log(arr[i]);
   }
 }
-PrintArrayVals(testArr);
+// PrintArrayVals(testArr);
