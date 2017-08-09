@@ -130,4 +130,4 @@ function ShiftArrayValsLeft(arr) {
   newArr[arr.length - 1] = 0;
   return newArr;
 }
-console.log(ShiftArrayValsLeft(testArr));
+// console.log(ShiftArrayValsLeft(testArr));
