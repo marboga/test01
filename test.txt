@@ -1,4 +1,4 @@
-//Print all the integers from 1 to 255.
+//1. Print all the integers from 1 to 255.
 
 function count() {
     for(var i = 1; i <= 255; i++) {
@@ -8,7 +8,7 @@ function count() {
 
 count();
 
-//Print Odds 1-255
+//2. Print Odds 1-255
 function count() {
     for(var i = 1; i <= 255; i = i + 2) {
         console.log(i);
@@ -17,7 +17,7 @@ function count() {
 
 count();
 
-//Print integers from 0 to 255, and with each integer print the sum so far.
+//3. Print integers from 0 to 255, and with each integer print the sum so far.
 function sum() {
   var sum = 0;
   for (var i = 0; i <= 255; i++) {
@@ -28,13 +28,13 @@ function sum() {
 
 sum();
 
-//Iterate through a given array, printing each value.
+//4. Iterate through a given array, printing each value.
 var arr = [1, 'run', 4.32, [3,4]];
 for (var i = 0; i <= arr.length; i++) {
    console.log(arr[i]);
  }
 
- //Given an array, find and print its largest element.
+ //5. Given an array, find and print its largest element.
  var arr = [1, 2, 34, 63, -1];
  var large = 0;
  for (var i = 0; i <= large; i++) {
@@ -44,3 +44,13 @@ for (var i = 0; i <= arr.length; i++) {
 }
 
 console.log(large);
+
+//6. Analyze an array's values and print the average.
+var arr = [1, 2, 3, 4, 5, 6];
+var total = 0;
+  for (var i = 0; i < arr.length; i++) {
+    total += arr[i];
+  }
+var avg = total / arr.length;
+
+console.log(avg);
