@@ -1,5 +1,7 @@
 // Tests for each function commented out below
 
+// var testArr = [7, 13, 9, -3, 4, 22, -30];
+
 function Print1To255() {
   for(var i = 1; i < 256; i++) {
     console.log(i);
@@ -25,7 +27,6 @@ function PrintMaxOfArray(arr) {
   }
   console.log(max);
 }
-var testArr = [7, 13, 9, -3, 4, 22, -30];
 // PrintMaxOfArray(testArr);
 
 function ReturnOddsArray1To255() {
@@ -73,6 +74,5 @@ function SwapStringForArrayNegativeValues(arr) {
     }
   }
 }
-
-SwapStringForArrayNegativeValues(testArr);
-console.log(testArr);
+// SwapStringForArrayNegativeValues(testArr);
+// console.log(testArr);
