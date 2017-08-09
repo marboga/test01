@@ -1,6 +1,6 @@
 // Tests for each function commented out below
 
-// var testArr = [7, 13, 9, -3, 4, 22, -30];
+var testArr = [7, 13, 9, -3, 4, 22, -30];
 
 function Print1To255() {
   for(var i = 1; i < 256; i++) {
@@ -82,4 +82,11 @@ function PrintOdds1To255() {
     console.log(i);
   }
 }
-PrintOdds1To255();
+// PrintOdds1To255();
+
+PrintArrayVals(arr) {
+  for(i = 0; i < arr.length; i++) {
+    console.log(arr[i]);
+  }
+}
+PrintArrayVals(testArr);
