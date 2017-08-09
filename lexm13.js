@@ -120,4 +120,4 @@ function ZeroOutNegativeNumbers(arr) {
   }
   return newArr;
 }
-console.log(ZeroOutNegativeNumbers(testArr));
+// console.log(ZeroOutNegativeNumbers(testArr));
