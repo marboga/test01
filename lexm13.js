@@ -76,3 +76,10 @@ function SwapStringForArrayNegativeValues(arr) {
 }
 // SwapStringForArrayNegativeValues(testArr);
 // console.log(testArr);
+
+function PrintOdds1To255() {
+  for(i = 1; i < 256; i += 2) {
+    console.log(i);
+  }
+}
+PrintOdds1To255();
