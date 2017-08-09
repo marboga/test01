@@ -121,3 +121,12 @@ function ZeroOutNegativeNumbers(arr) {
   return newArr;
 }
 // console.log(ZeroOutNegativeNumbers(testArr));
+
+function ShiftArrayValsLeft(arr) {
+  var newArr = new Array(arr.length)
+  for(i = 1; i < arr.length; i++) {
+    newArr[i - 1] = arr[i]
+  }
+  newArr[arr.length] = 0;
+}
+console.log(ShiftArrayValsLeft(testArr));
