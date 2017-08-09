@@ -33,7 +33,7 @@ function PrintMaxOfArray(arr) {
       max = arr[i];
     }
   }
-  console.log(max)
+  return max;
 }
 
 function PrintAverageOfArray(arr) {
@@ -46,7 +46,7 @@ function PrintAverageOfArray(arr) {
 }
 
 function ReturnOddsArray1To255() {
-  var newArray = []
+  var newArray = [];
   for (i = 1; i <= 255; i += 2) {
     newArray.push(i);
   }
@@ -63,8 +63,8 @@ function SquareArrayValues(arr) {
 }
 
 function ReturnArrayCountGreaterThanY(arr, y) {
-  var numCount = 0
-  var values = []
+  var numCount = 0;
+  var values = [];
   for (i = 0; i < arr.length; i ++) {
     if (arr[i] > y) {
       numCount = numCount + 1;
@@ -98,7 +98,7 @@ function PrintMaxMinAverageArrayVals(arr) {
     }
   }
   var average = sum / arr.length;
-  console.log('Min: ' + min + ' Max: ' + max + ' Average: ' + average)
+  console.log('Min: ' + min + ' Max: ' + max + ' Average: ' + average);
 }
 
 function ShiftArrayValsLeft(arr) {
