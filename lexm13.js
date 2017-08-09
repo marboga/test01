@@ -99,3 +99,12 @@ function PrintAverageOfArray(arr) {
   console.log(sum / arr.length);
 }
 // PrintAverageOfArray(testArr);
+
+function SquareArrayVals(arr) {
+  var newArr = [];
+  for(i = 0; i < arr.length; i++) {
+    newArr[i] = Math.pow(arr[i], 2);
+  }
+  return newArr;
+}
+console.log(SquareArrayVals(testArr));
