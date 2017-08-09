@@ -96,9 +96,11 @@
 // }
 // printodds()
 
-// 9 Iterate and Print Array
+// 9 Iterate and Print Array WORKING
 // function printarray(arr){
-//     console.log(arr);
+//     for (var i=0; i<arr.length; i++){
+//         console.log(arr[i]);
+//     }
 // }
 // printarray([2, 4, 24, 7]);
 
@@ -123,7 +125,7 @@
 // }
 // sqrarr([4, 5, 7]);
 
-// 12 Zero Out Negative Numbers
+// 12 Zero Out Negative Numbers WORKING
 // function zeronegs(arr){
 //     for(var i=0; i<arr.length; i++){
 //         if(arr[i]<0){
