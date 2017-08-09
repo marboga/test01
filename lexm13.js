@@ -98,4 +98,4 @@ function PrintAverageOfArray(arr) {
   }
   console.log(sum / arr.length);
 }
-PrintAverageOfArray();
+PrintAverageOfArray(testArr);
