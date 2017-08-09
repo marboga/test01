@@ -84,7 +84,7 @@ function PrintOdds1To255() {
 }
 // PrintOdds1To255();
 
-PrintArrayVals(arr) {
+function PrintArrayVals(arr) {
   for(i = 0; i < arr.length; i++) {
     console.log(arr[i]);
   }
