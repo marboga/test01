@@ -65,3 +65,14 @@ function PrintMaxMinAverageArrayVals(arr) {
   console.log('mean is ' + (sum / arr.length));
 }
 // PrintMaxMinAverageArrayVals(testArr);
+
+function SwapStringForArrayNegativeValues(arr) {
+  for(i = 0; i < arr.length; i++) {
+    if(arr[i] < 0) {
+      arr[i] = 'Dojo';
+    }
+  }
+}
+
+SwapStringForArrayNegativeValues(testArr);
+console.log(testArr);
