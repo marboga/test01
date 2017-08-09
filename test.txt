@@ -54,3 +54,10 @@ var total = 0;
 var avg = total / arr.length;
 
 console.log(avg);
+
+//7. Create an array with all the odd integers between 1 and 255(inclusive).
+var arr = [];
+for(var i = 1; i <= 255; i += 2) {
+  arr.push(i);
+}
+console.log(arr);
