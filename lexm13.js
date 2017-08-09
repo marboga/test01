@@ -128,5 +128,6 @@ function ShiftArrayValsLeft(arr) {
     newArr[i - 1] = arr[i]
   }
   newArr[arr.length] = 0;
+  return newArr;
 }
 console.log(ShiftArrayValsLeft(testArr));
