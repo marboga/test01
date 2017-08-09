@@ -107,4 +107,4 @@ function SquareArrayVals(arr) {
   }
   return newArr;
 }
-console.log(SquareArrayVals(testArr));
+// console.log(SquareArrayVals(testArr));
