@@ -90,3 +90,12 @@ function PrintArrayVals(arr) {
   }
 }
 // PrintArrayVals(testArr);
+
+function PrintAverageOfArray(arr) {
+  sum = 0;
+  for(i = 0; i < arr.length; i++) {
+    sum += arr[i];f
+  }
+  console.log(sum / arr.length);
+}
+PrintAverageOfArray();
