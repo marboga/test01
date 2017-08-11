@@ -61,3 +61,20 @@ for(var i = 1; i <= 255; i += 2) {
   arr.push(i);
 }
 console.log(arr);
+
+//8. Square each value in a given array, returning that same array with changed values.
+function squared() {
+var arr = [1,2,3,4,5,6,7,8];
+arr.forEach(function(element, index, array){
+    array[index] = element* element;
+});
+console.log(arr);
+
+//9.Given an array and value Y, count and print the number array values greater than Y.
+greaterThanY(arr, Y){
+var count = 0;
+  for( var i = 0; i<arr.length; i++){
+  count = count + 1;
+  }
+}
+console.log (count);
